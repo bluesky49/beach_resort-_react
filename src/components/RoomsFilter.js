@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import { RoomContext } from "../context";
-import Title from "../components/Title";
+import Title from "./Title";
 // get all unique values
 const getUnique = (items, value) => {
   return [...new Set(items.map(item => item[value]))];
@@ -127,7 +127,7 @@ const RoomsFilter = ({ rooms }) => {
               checked={pets}
               onChange={handleChange}
             />
-            <label htmlFor="pets">pets</label>
+            <label htmlFor="breakfast">pets</label>
           </div>
         </div>
         {/* end of extras type */}

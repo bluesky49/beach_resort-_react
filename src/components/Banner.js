@@ -1,19 +1,13 @@
-import React from 'react'
+import React from "react";
+const Banner = ({ children, title, subtitle }) => {
+  return (
+    <div className="banner">
+      <h1>{title}</h1>
+      <div />
+      <p>{subtitle}</p>
+      {children}
+    </div>
+  );
+};
 
-/**
-* @author
-* @function Banner
-**/
-
-const Banner = ({children, title, subtitle}) => {
-  return(
-      <div className="banner">
-          <h1>{title}</h1>
-          <p>{subtitle}</p>
-          {children}
-      </div>
-   );
-
- }
-
-export default Banner
+export default Banner;

@@ -1,17 +1,12 @@
-import React from 'react'
-
-/**
-* @author
-* @function Title
-**/
+import React from "react";
 
 const Title = ({ title }) => {
-  return(
+  return (
     <div className="section-title">
-        <h4>{title}</h4>
+      <h4>{title}</h4>
+      <div />
     </div>
-   )
+  );
+};
 
- }
-
-export default Title
+export default Title;
