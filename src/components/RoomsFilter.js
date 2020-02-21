@@ -127,7 +127,7 @@ const RoomsFilter = ({ rooms }) => {
               checked={pets}
               onChange={handleChange}
             />
-            <label htmlFor="breakfast">pets</label>
+            <label htmlFor="pets">pets</label>
           </div>
         </div>
         {/* end of extras type */}
