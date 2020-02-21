@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import Title from './Title';
 import {FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
 
